@@ -1,2 +1,2 @@
 #!/bin/bash
-find /path/to/source_directory
+mv [[:upper:]]* /tmp/u

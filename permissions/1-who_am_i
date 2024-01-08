@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Effective Username: "krissyluna7766"
+echo "Effective Username: $(krissyluna7766)"

@@ -1,11 +1,2 @@
 #!/bin/bash
-file="iacta"
-
-# Check if the file exists
-if [ -f "$file" ]; then
-    # Display the third line using head and tail
-    line=$(head -n 3 "$file" | tail -n 1)
-    echo "$line"
-else
-    echo "File '$file' not found."
-fi
+head iacta

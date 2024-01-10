@@ -1,0 +1,8 @@
+#!/bin/bash
+# Check if the file exists
+if [ -f "iacta" ]; then
+    # Display the third line using awk
+    awk 'NR==3' iacta
+else
+    echo "File 'iacta' not found."
+fi

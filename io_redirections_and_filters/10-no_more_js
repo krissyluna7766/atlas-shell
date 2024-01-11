@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -f ls -a .js files deleted
+rm -f *.js

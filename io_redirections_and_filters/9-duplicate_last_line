@@ -1,0 +1,2 @@
+#!/bin/bash
+file_name="iacta" last_line=$(tail -n 1 "$file_name") echo "$last_line" >> "$file_name" echo "Last line of $file_name duplicated"

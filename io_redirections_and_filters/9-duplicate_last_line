@@ -1,2 +1,2 @@
 #!/bin/bash
-"iacta" last_line=$(tail -n 1 "$last_line") echo "$last_line" >> "$last_line" echo "Last line of $last_line duplicated".
+tail -n 1 iacta >> iacta

@@ -1,4 +1,3 @@
 #!/bin/bash
-file_name="ls_cwd_content"
-ls -la > "$file_name"
-echo "Contents of current directory saved to $file_name"
+ls -la > "ls_cwd_content"
+echo "Contents of current directory saved to ls_cwd_content"

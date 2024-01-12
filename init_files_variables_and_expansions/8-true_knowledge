@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((128 + value_from_env))
+value_from_env=TRUEKNOWLEDGE echo $((128 + value_from_env))

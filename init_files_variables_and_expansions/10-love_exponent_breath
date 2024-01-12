@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((breath_value ** love_value))
+set $((breath_value ** love_value))

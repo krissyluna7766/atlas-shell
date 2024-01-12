@@ -1,2 +1,2 @@
 #!/bin/bash
-export "GLOBAL VARIABLE"
+export $GLOBAL_VARIABLE

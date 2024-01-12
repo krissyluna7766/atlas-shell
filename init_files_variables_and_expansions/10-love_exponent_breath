@@ -1,2 +1,2 @@
 #!/bin/bash
-export $((breath_value**love_value))
+printenv $((breath_value**love_value))

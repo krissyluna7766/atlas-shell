@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv $((breath_value^love_value))
+echo $((BREATH**$LOVE))

@@ -1,2 +1,2 @@
 #!/bin/bash
-set $((breath_value ** love_value))
+export $((breath_value**love_value))

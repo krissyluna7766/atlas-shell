@@ -1,0 +1,2 @@
+#!/bin/bash
+read -p "Enter a string: " user_input; echo "$user_input" | rev

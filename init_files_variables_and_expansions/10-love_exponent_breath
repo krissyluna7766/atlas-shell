@@ -1,2 +1,2 @@
 #!/bin/bash
-env $((BREATH**$Love))
+echo $((breath_value ** love_value))

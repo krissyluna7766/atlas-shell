@@ -4,19 +4,19 @@
 count=1
 # While loop to iterate from 1 to 20
 while [ $count -le 20 ]; do
-case $count in
-4)
-echo "$count and then bad luck from China"
-;;
-9)
-echo "$count and then bad luck from Japan"
-;;
-17)
-echo "$count and then bad luck from Italy"
-;;
-*)
-echo $count
-;;
-esac
-((count++))
+    case $count in
+        4)
+            echo "$count and then bad luck from China"
+            ;;
+        9)
+            echo "$count and then bad luck from Japan"
+            ;;
+        17)
+            echo "$count and then bad luck from Italy"
+            ;;
+        *)
+            echo $count
+            ;;
+    esac
+    ((count++))
 done
